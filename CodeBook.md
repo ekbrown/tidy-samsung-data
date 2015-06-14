@@ -3,14 +3,10 @@
 The tidy set created by the run_analysis.R file summarizes the values (normalized to values betwen -1 and 1) in the Samsung data set by Subject by Activity by Variable.
 
 The tidy set that is created has four columns:
-1. Subject
-  + ID numbers for the 30 participants
-2. Activity
-  + The activity during which the measurement was taken, among 'laying', 'sitting', 'standing', 'walking', 'walking downstairs', 'walking upstairs'
-3. Variable
-  + The 66 variable names that contain either 'mean()' or 'std()'
-4. Average_value
-  + The average value for the measurements for Variable when Subject was doing Activity
+* Subject: ID numbers for the 30 participants
+* Activity: The activity during which the measurement was taken, among 'laying', 'sitting', 'standing', 'walking', 'walking downstairs', 'walking upstairs'
+* Variable: The 66 variable names that contain either 'mean()' or 'std()'
+* Average_value: The average value for the measurements for Variable when Subject was doing Activity
 
 The script creates the tidy set in the following steps:
 
