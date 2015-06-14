@@ -23,4 +23,4 @@ Loads 'activity_labels.txt', which has labels for the activities (rather than ju
 Adds the variables labels previously loaded in from 'features.txt'.
 
 ## Step 5
-Uses a sweet pipeline, a la dplyr, to bend, massage, and manipulate the data into a tidy format (one variable per column). Additionally, this step saves the tidy data set to the hard drive, into the working directory of the R session.
+Uses a sweet pipeline, a-la-dplyr, to bend, massage, and manipulate the data into a tidy format (one variable per column). Additionally, this step saves the tidy data set to the hard drive, into the working directory of the R session.
